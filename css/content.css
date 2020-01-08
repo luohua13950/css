@@ -1,0 +1,87 @@
+.content{
+    height: auto;
+    /*background-color: blueviolet;*/
+}
+.middle{
+    width: 999px;
+    height: 1118px;
+    /*height: 960px;*/
+    margin: 100px auto;
+    border-top:1px solid rgb(228,229,228);
+}
+.middle ul{
+    list-style: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    float: left;
+}
+.middle li{
+    height: 360px;
+    width: 300px;
+    float: left;
+    border: 1px solid rgb(222,223,222);
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+.middle li img{
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 300px;
+    z-index: 20;
+    /*position: relative;*/
+	box-shadow:0 0 20px #000;
+}
+.abstract{
+    height: 140px;
+
+
+}
+.abstract h4{
+    margin: 0px;
+    padding: 0px;
+}
+.abstract p,span{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    color: rgb(86,89,86);
+
+}
+.abstract span{
+    color: rgb(46,46,46);
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.page{
+    width: 999px;
+    height: 38px;
+    margin: 0px auto;
+
+}
+.page ul{
+    list-style: none;
+    margin: 0px 0px 0px 240px;
+
+}
+.page li{
+    height: 38px;
+    float: left;
+    border: 1px solid rgb(46,46,46) ;
+    border-radius: 1px;
+    padding: 0px 20px;
+
+}
+.page li a{
+    text-decoration: none;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+.page li a:hover{
+    background-color: darkgrey;
+    width: 100%;
+}
